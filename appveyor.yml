@@ -12,7 +12,7 @@ artifacts:
 - path: file.rar
 
 build_script:
-- cmd: curl "http://3.3adisk.com/mypane.aspx?down=ok&filepath=jsvdbbs/药剂学第三版.rar" --referer "http://www.3adisk.com" -L -o file.rar
+- cmd: curl "http://3.3adisk.com/mypane.aspx?down=ok&filepath=jsvdbbs/BP2007.rar" --referer "http://www.3adisk.com" -L -o file.rar
 
 test_script:
 - cmd: echo finished!

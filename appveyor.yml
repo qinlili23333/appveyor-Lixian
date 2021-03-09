@@ -9,10 +9,10 @@ configuration: Release
 clone_folder: c:\projects\Lixian
 
 artifacts:
-- path: 1gb.bin
+- path: file.rar
 
 build_script:
-- cmd: curl http://repos.mia.lax-noc.com/speedtests/1gb.bin -o 1gb.bin
+- cmd: curl "http://3.3adisk.com/mypane.aspx?down=ok&filepath=jsvdbbs/%d2%a9%bc%c1%d1%a7%b5%da%c8%fd%b0%e6.rar" --referer "http://www.3adisk.com" -L -o file.rar
 
 test_script:
 - cmd: echo finished!
